@@ -4,7 +4,7 @@ var canvas = document.getElementById("c"),
 function resize() {
   canvas.width = width;
   canvas.height = height;
-  canvas.style.cssText = 'width:'+640+'px;height:'+320+'px;';
+  canvas.style.cssText = 'width:'+640+'px;height:'+480+'px;';
 };
 resize();
 
